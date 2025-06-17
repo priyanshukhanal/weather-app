@@ -14,7 +14,8 @@ const Home = () => {
     'New York',
     'Tokyo',
     'Sydney',
-    'Paris'
+    'Paris',
+    'Nepal'
   ]
 
   useEffect(() => {

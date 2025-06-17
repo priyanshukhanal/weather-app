@@ -64,7 +64,7 @@ const Contact = () => {
             <p>We'll get back to you as soon as possible.</p>
           </div>
         ) : (
-          <form className="contact-form" onSubmit={handleSubmit}>
+          <form action="https://formspree.io/f/mqabbrgj" method= "POST" className="contact-form" onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="name">Name *</label>
               <input
